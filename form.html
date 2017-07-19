@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Соціологічне опитування</title>
+</head>
+<body>
+    <h2>Чи вміють студенти відпочивати?</h2>
+    <form method="POST" action="https://formspree.io/oksanka123svyryd@gmail.com">
+        <fieldset>
+            
+        <p><label for="c-name">Ваше ім'я:</label>
+        <input type="text" name="ім'я" id="c-name"></p>
+        
+        <p><label for="p-name">Пароль:</label>
+        <input type="password" name="пароль" id="p-name"></p>
+        </fieldset>
+        
+        <fieldset>
+        <p><label for="c-age">Ваш вік?</label>
+        <input type="number" name="вік" id="c-age" value="15" min="15" max="40"></p>
+        
+        <p><label>Ваша стать? </label></p>
+        <p><label><input name="жінка" type="checkbox">Жіноча</label></p>
+        <p><label><input name="чоловік" type="checkbox">Чоловіча</label></p>
+        
+        <p><label>Ваше місце проживання? </label></p>
+        <p><label><input name="гуртожиток" type="checkbox">в гуртожитку</label></p>
+        <p><label><input name="з батьками" type="checkbox">вдома з батьками</label></p>
+        <p><label><input name="самі" type="checkbox">самі, окремо від рідних</label></p>
+        
+        <p><label>Звичайно ви: </label></p>
+        <p><label><input name="навчання" type="checkbox">навчаєтесь</label></p>
+        <p><label><input name="справи" type="checkbox">займаєтесь справами, але намагаєтесь не напружуватись</label></p>
+        <p><label><input name="відпочинок" type="checkbox">відпочиваєте</label></p>
+        
+        <p><label>Прийшовши додому, після важкого дня, Ви: </label></p>
+        <p><label><input name="справи" type="checkbox">не дивлячись на бажання відпочити, займаєтесь справами (навчанням)</label></p>
+        <p><label><input name="невеликий відпочинок" type="checkbox">трішки відпочиваєте, а потім беретесь за справи</label></p>
+        <p><label><input name="відпочинок" type="checkbox">бажання відпочити перемагає</label></p>
+        
+        <fieldset>
+            <p><label>Коментарі:</label></p>
+                <p><label><textarea name="коментар"></textarea></label></p>
+        </fieldset>
+        
+        <input type="submit">
+        <input type="reset">
+        
+        </fieldset>
+    </form>
+    
+</body>
+</html>
